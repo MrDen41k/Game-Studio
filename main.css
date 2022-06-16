@@ -1,4 +1,7 @@
-header p {
+header p,
+header a {
+    display: block;
+    text-decoration: none;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -120,12 +123,13 @@ article:not(:last-child) {
 }
 
 footer {
-    margin: 30px;
+    margin-top: 30px;
     text-align: center;
     background-color: #2F303A;
 }
 
 footer h2 {
+    padding-top: 29px;
     color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -164,4 +168,8 @@ article p:hover {
     box-sizing: border-box;
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+h3 a {
+    text-decoration: none;
+    color: #212121;
 }
