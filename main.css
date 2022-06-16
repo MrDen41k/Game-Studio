@@ -1,0 +1,167 @@
+header p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+body{
+ margin: 0;
+ font-family: 'Roboto', sans-serif;
+}
+
+header,
+footer {
+ font-family: 'Maleway', sans-serif;
+}
+span {
+    color: #2196F3;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.first-section {
+    height: 400px;
+    background-image: url(img/Header\ img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 158px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.first-section::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(47, 48, 58, 0.4);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+hr {
+    background: #2196F3;
+    margin-bottom: 31px;
+    width: 100px;
+    height: 2px;
+    border: none;
+}
+
+h2,
+h3 {
+    font-weight: 700;
+    color: #212121;
+}
+
+h2 {
+    margin: 25px 0 4px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+h3 {
+    margin: 20px 24px 4px;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+    margin: 0 24px 20px;
+}
+
+.second-section {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 24px;
+}
+
+article {
+    border: 1px solid #EEEEEE;
+}
+
+article:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+article:hover h3 {
+    color: #2196F3;
+}
+
+article:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 30px;
+    text-align: center;
+    background-color: #2F303A;
+}
+
+footer h2 {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 13px;
+}
+
+footer address {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+footer a {
+    display: block;
+    margin: 8px 0 0;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 24px;
+}
+
+article h3:hover {
+    box-sizing: border-box;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+article p:hover {
+    box-sizing: border-box;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
